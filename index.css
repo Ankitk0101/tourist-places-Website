@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+
+.main-nav{
+    display: flex;
+     height: 80px;
+     width: 100%;
+     /* justify-content: center;
+     align-items: center; */
+     position:fixed;
+     z-index: 100;
+     background-image:linear-gradient(rgb(179, 208, 213), rgb(177, 214, 243));;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type:none;
+    margin-left: 170px;
+    cursor: pointer; 
+}
+
+.nav-ul li{
+    margin-left: 20px;
+    font-size: large;  
+}
+a{
+    text-decoration: none;
+}
+.child-nav-bar{
+
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        /* position: absolute; */
+        z-index: 1;  
+        background-color: #ffffff;
+        background-color: aqua;
+        margin-bottom: 10px;
+}
+
+
+nav ul>:nth-child() { display: none }
+
+.logo{
+    height: 30px;
+    width: 50px;
+}
+/* Hide the child navigation bar by default */
+.child-nav-bar {
+    display: none;
+}
+
+ 
+/* Show the child navigation bar when the parent menu item is hovered over */
+.nav-ul > li:hover .child-nav-bar {
+    display:flex;
+    flex-direction:column;
+    position: absolute;
+    
+    
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+  
+
+
+ 
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 10s slidy infinite; 
+    }
+
+
+    /* Example custom CSS for the menu */
+.menu {
+    background-color: #333;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .menu ul {
+      flex-direction: column;
+    }
+  }
+  
+   
+   
+ 
+  .service-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width: auto;
+    height: 30px;
+    margin-top: 50px;
+    
+  }
+   
+   .service-container-P{
+        width: 800px;
+        height: 200px;
+   }
+
+
+   
+   .card-section{
+    display: flex;
+     align-items: center;
+     justify-content: space-around;
+    flex-direction: row;
+  }
+
+
+  
+.card-body {
+     height:200px;
+     width:300px;
+     display: flex;
+     margin-top: 50px;
+     border: #000;
+      background: #c8e7ed;
+    padding: 10px;
+    border-radius: 30px;
+
+  }
+  
+  #summary
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+  }
+
+  .destination{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 20px;
+  }
+  .destination-p{
+    width: 700px;
+    height: 60px;
+    margin-top: 10px;
+  }
+   
