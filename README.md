@@ -1,5 +1,8 @@
-Tourist Places Website
-Welcome to the Tourist Places Website! This is a personal project designed to showcase popular tourist destinations around the world. The website allows users to explore different places, their descriptions, images, and essential travel details.
+# Tourist Places Website
 
-Whether you're planning your next vacation or just curious about famous tourist spots, this site will provide valuable information.
+A simple website to explore popular tourist destinations around the world. This website provides information about various places, their history, and key landmarks.
 
+## Features
+- Explore different tourist places.
+- Beautiful images of popular tourist spots.
+- User-friendly interface for easy navigation.
